@@ -1,0 +1,460 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@600;700&display=swap');
+
+
+
+.container{
+width: 1140px;
+margin: 0 auto;
+
+
+    
+}
+ /* header section css  */
+
+header{
+
+width: 110%;
+background:url(../img/banner.png);
+background-size:cover ;
+background-position: center;
+background-repeat: no-repeat;
+height: 110vh;
+}
+.menubar{
+
+display: flex;
+autoplay:false
+autoplayTimeout:5000
+autoplayHoverPause:false
+padding: 32px;
+}
+.logo{
+width: 30%;
+float: left;
+
+}
+.menu-item{
+    width: 70%;
+float: left;
+text-align: right;
+
+}
+.contact-no img{
+
+vertical-align: middle;
+
+
+}
+.contact-no span{
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+color:#3d2514;
+vertical-align: middle;
+}
+.main-menu{
+margin: 14px 0;
+
+}
+.main-menu ul li{
+
+list-style: none;
+display: inline-block;
+margin-left: 52px;
+}
+
+.main-menu{
+
+font-weight: 600;
+color: #3d2514;
+letter-spacing: 4px;
+font-size:18px ;
+font-family: 'Bebas Neue', cursive;
+}
+.banner{
+width: 100%;
+float: left;
+}
+.banner-left{
+width: 50%;
+float: left;
+
+}
+.banner-right{
+
+    width: 50%;
+    float: left;
+}
+.left-content{
+	height: 60vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.left-content h1{
+
+
+    font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+    font-size: 83px;
+    color: #3d2514;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px #fee8bc;
+    margin-left: 101px;
+}
+.left-content h2{
+
+
+    margin-left: 105px;
+	
+    font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	color: #3d2514;
+    letter-spacing: 4px;
+    font-size: 56px;
+    text-shadow: 2px 2px #fee8bc;
+}
+
+
+.left-content p{
+    border: 2px dashed black;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #3d2514;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 106px;
+}
+ .main-menu ul li:hover{
+color: red;
+
+
+}
+.inner-box{
+height: 110px;
+width: 110px;
+border-radius: 100%;
+background-color: red;
+border: 2px dashed white;
+position: absolute;
+top: 0%;
+bottom: 0%;
+margin: auto;
+left: 18px;
+}
+.inner-box h1{
+line-height: 110px;
+margin-left: 24px;
+color: seashell;
+}
+.right-content{
+
+height: 133px;
+width: 133px;
+border-radius: 100%;
+background-color: red;
+position: relative;
+padding: 7px;
+bottom: 260px;
+left:110px
+}
+
+
+
+
+
+
+
+.right-content h1 span{
+font-size: 26px;
+}
+
+
+.post{
+	width: 100%;
+	float: left;
+}
+.left{
+	width: 50%;
+	float: left;
+}
+.right{
+	width: 50%;
+	float: left;
+}
+.img1{
+
+margin-bottom: -45px;
+position: relative;
+
+}
+.imgy{
+
+    
+position: relative;
+margin-top: 66px;
+    }
+    .txt{
+
+        position: absolute;
+        margin-top: 207px;
+    left: 12px;
+    color: white;
+    letter-spacing: 3px;
+    font-family:  'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.txt2{
+
+    position: absolute;
+    margin-left: 395px;
+    margin-top: 206px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.txt3{
+
+position: absolute;
+margin-left: 706px;
+    margin-top: 475px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.slider{
+width: 100%;
+padding: 20px 30px;
+    box-shadow: 6px 6px 22px 4px rgba(0,0,0,0.6);
+float: left;
+
+}
+.slider-left{
+    width: 50%;
+    float: left;
+    
+    }
+    .slider-left h5{
+    
+    font-family: 'Bebas Neue', cursive;
+font-size: 24px;
+    }
+    .slider{
+
+padding: 20px 30px;
+box-shadow: 6px 6px 22px 4px rgba(0,0,0,0.6);
+
+
+
+    }
+    .slider-left h1{
+    
+        font-family: 'Alfa Slab One', cursive;
+    
+        }
+        .slider-left p{
+    
+            font-family: 'Montserrat', sans-serif;
+            }
+            .slider-right{
+
+          width:50%;
+          float: left;
+
+            }
+            .post-btn{
+        text-align: center;
+        margin: 20px 0;
+
+
+            }
+    .post-btn button{
+    padding: 15px 20px;
+   background: transparent;
+   border: none;
+   border:1px solid #ffc045;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', cursive;
+margin-top: 88px;
+
+    }
+    .postt{
+
+width: 100%;
+float: left;
+height: 70vh;
+margin-top: 50px;
+    }
+    .im1{
+
+width: 33%;
+float: left;
+position: relative;
+
+    }
+    .im1-txt h1 {
+
+position: absolute;
+
+    }
+    .postu{
+
+  width:100% ;
+float: left;
+
+
+
+    }
+    .left1{
+width: 33%;
+float: left;
+height: 50vh;
+padding-top: 88px;
+
+    }
+    .left2{
+        width: 33%;
+        float: left;
+        padding-top: 88px;
+
+
+    }
+    .left3{
+        width: 33%;
+        float: left;
+        padding-top: 88px;
+
+
+    }
+    .owl-nav{
+
+display: none;
+
+
+    }
+     .owl-dots{
+         position: absolute;
+      margin-left: 60px;
+      bottom: 40px;
+
+
+     }
+     .owl-theme .owl-dots .owl-dot.active span{
+         background: #ffc045;!important
+
+
+
+     }
+     .table{
+
+     position: ;
+
+
+     }
+     .form .container{
+
+      justify-content: center;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: -2405px;
+        left: 470px;
+     }
+     input[type="submit" i] {
+
+     background: red;
+        color: white;
+     }
+     .form input{
+
+     font-family: 'Bebas Neue', cursive;
+    padding: 5px;
+    width: 204px;
+    text-align: center;
+    
+    
+
+     }
+     .form h3{
+
+        font-family: 'Bebas Neue', cursive;
+       text-align:left ;
+     }
+     .form h1{
+
+     word-spacing: 9px;
+    
+     font-family:'Alfa Slab One', cursive ;
+
+     }
+     .botm{
+
+     left: 155px;
+     
+     position: relative;
+     }
+     .left-content2 p{
+     color: white;
+      margin-left: -43px;
+      font-family:'Bebas Neue', cursive ; 
+      margin-top: -332px;
+      padding: -95px;
+      width: 45%;
+     }
+     .logo1{
+     margin-top: -91px;
+     
+
+     }
+     .blogo{
+
+     position: absolute;
+    
+     bottom: -2880px;
+      left: 84px;
+     }
+     .bimg{
+     margin-left: 65px;
+     
+
+     }
+     .social-icon ul{
+     left: 865px;
+      bottom: -3055px;
+        position: absolute;
+        color: white;
+     display: block;
+     font-size: 33px
+
+     }
+     .sc-text{
+
+     text-transform: uppercase;
+     font-family: 'Bebas Neue', cursive;
+     position: absolute;
+     bottom: -3042px;
+    left: 960px;
+    font-size: 13px;
+    color: white;
+     }
+     .fa{
+
+     margin-top: 10px;
+
+     }
+     .btm-sc{
+     position: absolute;
+     bottom: -3250px;
+     left: 1150px;
+     color: white;
+font-size: 25px;
+
+     }
+     .btm-sc  ul li i{
+        margin: 40px;
+
+       
+     }
